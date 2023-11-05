@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PetshopWebApp
+build_property.RootNamespace = PetshopWebApp
+build_property.ProjectDir = D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetshopWebApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetshopWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Pet/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Pet/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Pet/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Pet/OrderSuccesed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XE9yZGVyU3VjY2VzZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Pet/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SE/S5/PRN211/Templete/Standard/PRN211-Project-PetShop/PRN211-ALLINONENIGHT/PetshopWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qjcuy0fh97

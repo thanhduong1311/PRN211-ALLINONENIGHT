@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container">
+    <h2>ORDER</h2>
+    <p>Pets information:</p>
+    <p>The name: @Model.PetName</p>
+    <p>Pet Description: @Model.PetDescription</p>
+    <p>Price: @Model.PetPrice</p>
+    <form method="post" asp-action="Order" asp-controller="Pet">
+        <input type="hidden" name="petId" value="@Model.PetId" />
+        <div class="form-group">
+            <label for="quantity">Quantity:</label>
+            <input type="number" class="form-control" id="quantity" name="quantity" required>
+        </div>
+        <button type="submit" class="btn btn-success">OK</button>
+    </form>
+
+
+</div>
