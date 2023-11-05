@@ -30,7 +30,6 @@ namespace PetStore_StudentName
         /// </summary>
         private void InitializeComponent()
         {
-            btnExit = new Button();
             btnSave = new Button();
             txtEmail = new TextBox();
             txtFullName = new TextBox();
@@ -41,29 +40,17 @@ namespace PetStore_StudentName
             label3 = new Label();
             label1 = new Label();
             panel1 = new Panel();
+            button1 = new Button();
             SuspendLayout();
-            // 
-            // btnExit
-            // 
-            btnExit.BackColor = Color.Wheat;
-            btnExit.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            btnExit.Location = new Point(527, 271);
-            btnExit.Margin = new Padding(2);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(99, 32);
-            btnExit.TabIndex = 55;
-            btnExit.Text = "Exit";
-            btnExit.UseVisualStyleBackColor = false;
-            btnExit.Click += btnExit_Click;
             // 
             // btnSave
             // 
             btnSave.BackColor = Color.YellowGreen;
             btnSave.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSave.Location = new Point(389, 271);
-            btnSave.Margin = new Padding(2);
+            btnSave.Location = new Point(445, 361);
+            btnSave.Margin = new Padding(2, 3, 2, 3);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(99, 32);
+            btnSave.Size = new Size(113, 43);
             btnSave.TabIndex = 54;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = false;
@@ -72,58 +59,58 @@ namespace PetStore_StudentName
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            txtEmail.Location = new Point(389, 158);
-            txtEmail.Margin = new Padding(2);
+            txtEmail.Location = new Point(445, 211);
+            txtEmail.Margin = new Padding(2, 3, 2, 3);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(237, 25);
+            txtEmail.Size = new Size(270, 29);
             txtEmail.TabIndex = 51;
             // 
             // txtFullName
             // 
             txtFullName.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            txtFullName.Location = new Point(389, 225);
-            txtFullName.Margin = new Padding(2);
+            txtFullName.Location = new Point(445, 300);
+            txtFullName.Margin = new Padding(2, 3, 2, 3);
             txtFullName.Name = "txtFullName";
-            txtFullName.Size = new Size(237, 25);
+            txtFullName.Size = new Size(270, 29);
             txtFullName.TabIndex = 50;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(389, 137);
+            label5.Location = new Point(445, 183);
             label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(41, 19);
+            label5.Size = new Size(51, 23);
             label5.TabIndex = 49;
             label5.Text = "Email";
             // 
             // txtPassword
             // 
             txtPassword.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPassword.Location = new Point(389, 90);
-            txtPassword.Margin = new Padding(2);
+            txtPassword.Location = new Point(445, 120);
+            txtPassword.Margin = new Padding(2, 3, 2, 3);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(237, 25);
+            txtPassword.Size = new Size(270, 29);
             txtPassword.TabIndex = 45;
             // 
             // txtMemberId
             // 
             txtMemberId.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            txtMemberId.Location = new Point(389, 30);
-            txtMemberId.Margin = new Padding(2);
+            txtMemberId.Location = new Point(445, 40);
+            txtMemberId.Margin = new Padding(2, 3, 2, 3);
             txtMemberId.Name = "txtMemberId";
-            txtMemberId.Size = new Size(237, 25);
+            txtMemberId.Size = new Size(270, 29);
             txtMemberId.TabIndex = 44;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(386, 69);
+            label7.Location = new Point(441, 92);
             label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(67, 19);
+            label7.Size = new Size(80, 23);
             label7.TabIndex = 43;
             label7.Text = "Password";
             // 
@@ -131,10 +118,10 @@ namespace PetStore_StudentName
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(386, 204);
+            label3.Location = new Point(441, 272);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(70, 19);
+            label3.Size = new Size(87, 23);
             label3.TabIndex = 41;
             label3.Text = "Full Name";
             // 
@@ -142,10 +129,10 @@ namespace PetStore_StudentName
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(389, 9);
+            label1.Location = new Point(445, 12);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(77, 19);
+            label1.Size = new Size(94, 23);
             label1.TabIndex = 40;
             label1.Text = "Member Id";
             // 
@@ -153,19 +140,34 @@ namespace PetStore_StudentName
             // 
             panel1.BackgroundImage = PetShopWinApp.Properties.Resources.e995287a2bedc655ac41b8a25fd1468a;
             panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Location = new Point(28, 12);
+            panel1.Location = new Point(32, 16);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(312, 291);
+            panel1.Size = new Size(357, 388);
             panel1.TabIndex = 56;
             panel1.Paint += panel1_Paint;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(255, 128, 128);
+            button1.Font = new Font("Segoe UI", 9.857143F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ActiveCaptionText;
+            button1.Location = new Point(602, 361);
+            button1.Margin = new Padding(2, 3, 2, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(113, 43);
+            button1.TabIndex = 57;
+            button1.Text = "Reset";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // frmCreateAccount
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(660, 324);
+            ClientSize = new Size(754, 432);
+            Controls.Add(button1);
             Controls.Add(panel1);
-            Controls.Add(btnExit);
             Controls.Add(btnSave);
             Controls.Add(txtEmail);
             Controls.Add(txtFullName);
@@ -175,7 +177,6 @@ namespace PetStore_StudentName
             Controls.Add(label7);
             Controls.Add(label3);
             Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "frmCreateAccount";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Create Member Account";
@@ -185,8 +186,6 @@ namespace PetStore_StudentName
         }
 
         #endregion
-
-        private Button btnExit;
         private Button btnSave;
         private TextBox txtEmail;
         private TextBox txtFullName;
@@ -197,5 +196,6 @@ namespace PetStore_StudentName
         private Label label3;
         private Label label1;
         private Panel panel1;
+        private Button button1;
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj": {}
+    "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj": {}
   },
   "projects": {
-    "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\Thanh Duong\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\obj\\",
+        "projectPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thanh Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,21 +85,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj": {
+    "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Thanh Duong\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\DataAccess\\obj\\",
+        "projectPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thanh Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,8 +113,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj"
+              "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -174,21 +174,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj": {
+    "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj",
+        "projectUniqueName": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj",
         "projectName": "PetShopWinApp",
-        "projectPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj",
-        "packagesPath": "C:\\Users\\Thanh Duong\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\PetShopWinApp\\obj\\",
+        "projectPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\PetShopWinApp\\PetShopWinApp.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\PetShopWinApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thanh Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,11 +202,11 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj"
+              "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\SE\\S5\\PRN211\\Templete\\Standard\\PRN211-Project-PetShop\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj"
+              "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\FPT_FILES\\FA23\\PRN211\\PRN211-ALLINONENIGHT\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -269,7 +269,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

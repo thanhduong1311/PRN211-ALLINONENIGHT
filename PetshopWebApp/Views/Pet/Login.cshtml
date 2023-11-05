@@ -41,22 +41,22 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/eStore.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body style="background-image:url(https://i.ytimg.com/vi/qadu4SAYOsk/maxresdefault.jpg);background-size:contain;">
     <!-- Section: Design Block -->
-    <div id="main-login">
-        <section class="">
+    <div id="main-login" >
+        <section >
             <!-- Jumbotron -->
-            <div class="px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
+            <div class="px-4 py-5 px-md-5 text-center text-lg-start" >
                 <div class="container">
                     <div class="row gx-lg-5 align-items-center">
                         <div class="col-lg-6 mb-5 mb-lg-0 text-center">
-                            <h1 class="my-5 display-3 fw-bold ls-tight">
+                            <h1 class="my-5 display-3 fw-bold ls-tight text-light" style="text-shadow: #3333FF 1px 0 10px;">
                                 Pet Shop Welcome
                             </h1>
-                            <p style="color: hsl(217, 10%, 50.8%)">
+                            @* <p style="text-shadow: #3333FF 1px 0 10px;">
                                 "Proudly where pet love becomes a reality."
                                 <br>
-                            </p>
+                            </p> *@
                         </div>
 
                         <div class="col-lg-6 mb-5 mb-lg-0">
@@ -64,20 +64,22 @@
                                 <div class="card-body py-5 px-md-5">
                                     <form method="post" asp-controller="Pet" asp-action="Login">
                                         <!-- 2 column grid layout with text inputs for the first and last names -->
-                                        <div class="row">
+                                        <div class="row pb-2">
                                             <h3 class="text-center">Login</h3>
                                         </div>
 
                                         <!-- Email input -->
-                                        <div class="form-outline mb-4">
-                                            <label class="form-label" for="form3Example3">Email</label>
+                                        <div class="form-outline form-floating mb-4">
                                             <input name="InputEmail" type="email" required id="form3Example3" class="form-control" />
+                                            <label class="form-label" for="form3Example3">Email</label>
+                                            
                                         </div>
 
                                         <!-- Password input -->
-                                        <div class="form-outline mb-4">
-                                            <label class="form-label" for="form3Example4">Password</label>
+                                        <div class="form-outline form-floating mb-4">
                                             <input name="InputPassword" type="password" required id="form3Example4" class="form-control" />
+                                            <label class="form-label" for="form3Example4">Password</label>
+                                            
                                         </div>
 
 

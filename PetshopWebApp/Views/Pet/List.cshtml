@@ -4,49 +4,41 @@
 *@
 @{
 }
-<form method="get" asp-action="Search" asp-controller="Pet">
-    <div class="form-group">
-        <label for="searchInput">Search name:</label>
-        <input type="text" class="form-control" id="searchInput" name="searchTerm" placeholder="Enter the name">
-    </div>
-    <button type="submit" class="btn btn-primary">Search</button>
-</form>
+<div class="card-body">
+    <table class="table table-striped" id="myTable">
+        <thead>
+            <tr>
+                <th>PetName</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
 
-<table>
-    <tr>
-        <th>PetName</th>
-        <th>Description</th>
-        <th>Quantity</th>
-        <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Pet p in Model)
+            {
+                <tr>
+                    <td>@p.PetName</td>
+                    <td>@p.PetDescription</td>
+                    <td>@p.Quantity</td>
+                    <td>@p.PetPrice</td>
+                    <td>
+                        <form method="get" asp-action="Order" asp-controller="Pet">
+                            <input type="hidden" name="petId" value="@p.PetId" />
+                            <button type="submit" class="btn btn-success">Order</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
-    </tr>
-
-    @foreach (Pet p in Model)
-    {
-        <tr>
-            <td>@p.PetName</td>
-            <td>@p.PetDescription</td>
-            <td>@p.Quantity</td>
-            <td>@p.PetPrice</td>
-            <td>
-                <form method="get" asp-action="Order" asp-controller="Pet">
-                    <input type="hidden" name="petId" value="@p.PetId" />
-                    <button type="submit" class="btn btn-success">Order</button>
-                </form>
-            </td>
-        </tr>
-    }
-
-
-</table>
-
-<style>
-    .btn {
-        margin-top: 7px;
-    }
-
-    th, td {
-        padding: 15px;
-        text-align: left;
-    }
-</style>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+<script>
+    new DataTable('#myTable');
+</script>

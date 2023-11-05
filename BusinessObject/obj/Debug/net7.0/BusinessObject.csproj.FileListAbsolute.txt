@@ -26,3 +26,17 @@ D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\Bu
 D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.pdb
 D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.genruntimeconfig.cache
 D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\ref\BusinessObject.dll
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\bin\Debug\net7.0\BusinessObject.deps.json
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\bin\Debug\net7.0\BusinessObject.runtimeconfig.json
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\bin\Debug\net7.0\BusinessObject.dll
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\bin\Debug\net7.0\BusinessObject.pdb
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.csproj.AssemblyReference.cache
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.AssemblyInfo.cs
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.dll
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\refint\BusinessObject.dll
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.pdb
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\BusinessObject.genruntimeconfig.cache
+D:\FPT_FILES\FA23\PRN211\PRN211-ALLINONENIGHT\BusinessObject\obj\Debug\net7.0\ref\BusinessObject.dll

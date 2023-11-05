@@ -253,7 +253,6 @@ namespace PetStore_StudentName
         {
             frmCreateAccount frm = new();
             frm.ShowDialog();
-            this.Hide();
         }
 
         private void btnLoad_Click(object sender, EventArgs e)
@@ -276,7 +275,6 @@ namespace PetStore_StudentName
                     //load lai form
                     loadPetList(null);
                 }
-
             }
             else
             {

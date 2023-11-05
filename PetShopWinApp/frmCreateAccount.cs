@@ -60,9 +60,10 @@ namespace PetStore_StudentName
                         _shopMemberRepository.AddPetShopMember(petShopMember);
                         MessageBox.Show("Create Account success!");
                     }
-                    this.Close();
+                    this.Hide();
                     frmPetManagement frm = new frmPetManagement();
-                    frm.Show();
+                    frm.ShowDialog();
+                    this.Close();
 
                 }
                 catch (Exception ex)
@@ -117,16 +118,18 @@ namespace PetStore_StudentName
         //	return false;
         //}
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            frmPetManagement frm = new frmPetManagement();
-            frm.Show();
-        }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtEmail.Clear();
+            txtFullName.Clear();
+            txtMemberId.Clear();
+            txtPassword.Clear();
         }
     }
 }
