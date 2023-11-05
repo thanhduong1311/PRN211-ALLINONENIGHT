@@ -50,17 +50,20 @@
             label1 = new Label();
             sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             btnCreateAccout = new Button();
+            panel1 = new Panel();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvPet).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = SystemColors.ControlLightLight;
             groupBox1.Controls.Add(btnLoad);
             groupBox1.Controls.Add(btnExit);
             groupBox1.Controls.Add(btnUpdate);
             groupBox1.Controls.Add(btnSave);
-            groupBox1.Location = new Point(80, 442);
+            groupBox1.Location = new Point(166, 555);
             groupBox1.Margin = new Padding(2);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(2);
@@ -70,50 +73,55 @@
             // 
             // btnLoad
             // 
+            btnLoad.BackColor = SystemColors.ActiveCaption;
             btnLoad.Location = new Point(398, 31);
             btnLoad.Margin = new Padding(2);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(76, 29);
             btnLoad.TabIndex = 4;
             btnLoad.Text = "Load";
-            btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.UseVisualStyleBackColor = false;
             btnLoad.Click += btnLoad_Click;
             // 
             // btnExit
             // 
+            btnExit.BackColor = Color.LightCoral;
             btnExit.Location = new Point(563, 31);
             btnExit.Margin = new Padding(2);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(76, 29);
             btnExit.TabIndex = 3;
             btnExit.Text = "Exit";
-            btnExit.UseVisualStyleBackColor = true;
+            btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += btnExit_Click;
             // 
             // btnUpdate
             // 
+            btnUpdate.BackColor = SystemColors.ActiveCaption;
             btnUpdate.Location = new Point(240, 31);
             btnUpdate.Margin = new Padding(2);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(76, 29);
             btnUpdate.TabIndex = 1;
             btnUpdate.Text = "Update";
-            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.UseVisualStyleBackColor = false;
             btnUpdate.Click += btnUpdate_Click;
             // 
             // btnSave
             // 
+            btnSave.BackColor = Color.LightGreen;
             btnSave.Location = new Point(90, 31);
             btnSave.Margin = new Padding(2);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(76, 29);
             btnSave.TabIndex = 0;
             btnSave.Text = "Add";
-            btnSave.UseVisualStyleBackColor = true;
+            btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += btnSave_Click;
             // 
             // dgvPet
             // 
+            dgvPet.BackgroundColor = SystemColors.ControlLightLight;
             dgvPet.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvPet.Location = new Point(80, 221);
             dgvPet.Margin = new Padding(2);
@@ -122,7 +130,7 @@
             dgvPet.RowHeadersWidth = 72;
             dgvPet.RowTemplate.Height = 39;
             dgvPet.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvPet.Size = new Size(728, 218);
+            dgvPet.Size = new Size(885, 330);
             dgvPet.TabIndex = 34;
             dgvPet.CellContentClick += dgvPet_CellContentClick;
             dgvPet.CellDoubleClick += dgvPet_CellDoubleClick;
@@ -131,7 +139,7 @@
             // 
             cboPetGroup.DropDownStyle = ComboBoxStyle.DropDownList;
             cboPetGroup.FormattingEnabled = true;
-            cboPetGroup.Location = new Point(589, 139);
+            cboPetGroup.Location = new Point(539, 119);
             cboPetGroup.Margin = new Padding(2);
             cboPetGroup.Name = "cboPetGroup";
             cboPetGroup.Size = new Size(204, 23);
@@ -139,7 +147,7 @@
             // 
             // txtQuantity
             // 
-            txtQuantity.Location = new Point(589, 97);
+            txtQuantity.Location = new Point(539, 77);
             txtQuantity.Margin = new Padding(2);
             txtQuantity.Name = "txtQuantity";
             txtQuantity.Size = new Size(204, 23);
@@ -147,7 +155,7 @@
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(192, 184);
+            txtPrice.Location = new Point(142, 164);
             txtPrice.Margin = new Padding(2);
             txtPrice.Name = "txtPrice";
             txtPrice.Size = new Size(204, 23);
@@ -155,7 +163,7 @@
             // 
             // dtImportDate
             // 
-            dtImportDate.Location = new Point(192, 142);
+            dtImportDate.Location = new Point(142, 122);
             dtImportDate.Margin = new Padding(2);
             dtImportDate.Name = "dtImportDate";
             dtImportDate.Size = new Size(206, 23);
@@ -163,7 +171,7 @@
             // 
             // txtPetName
             // 
-            txtPetName.Location = new Point(190, 97);
+            txtPetName.Location = new Point(140, 77);
             txtPetName.Margin = new Padding(2);
             txtPetName.Name = "txtPetName";
             txtPetName.Size = new Size(204, 23);
@@ -171,7 +179,7 @@
             // 
             // txtDescription
             // 
-            txtDescription.Location = new Point(589, 55);
+            txtDescription.Location = new Point(539, 35);
             txtDescription.Margin = new Padding(2);
             txtDescription.Name = "txtDescription";
             txtDescription.Size = new Size(204, 23);
@@ -179,7 +187,7 @@
             // 
             // txtPetId
             // 
-            txtPetId.Location = new Point(190, 59);
+            txtPetId.Location = new Point(140, 39);
             txtPetId.Margin = new Padding(2);
             txtPetId.Name = "txtPetId";
             txtPetId.Size = new Size(204, 23);
@@ -188,7 +196,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(64, 100);
+            label7.Location = new Point(14, 80);
             label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
             label7.Size = new Size(59, 15);
@@ -198,7 +206,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(64, 142);
+            label6.Location = new Point(14, 122);
             label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
             label6.Size = new Size(70, 15);
@@ -208,7 +216,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(478, 58);
+            label5.Location = new Point(428, 38);
             label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
             label5.Size = new Size(67, 15);
@@ -218,7 +226,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(478, 98);
+            label4.Location = new Point(428, 78);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
             label4.Size = new Size(53, 15);
@@ -228,7 +236,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(64, 188);
+            label3.Location = new Point(14, 168);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(33, 15);
@@ -238,7 +246,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(478, 140);
+            label2.Location = new Point(428, 120);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
             label2.Size = new Size(60, 15);
@@ -248,7 +256,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(64, 60);
+            label1.Location = new Point(14, 40);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(37, 15);
@@ -262,37 +270,47 @@
             // 
             // btnCreateAccout
             // 
-            btnCreateAccout.Location = new Point(295, 20);
+            btnCreateAccout.BackColor = Color.SkyBlue;
+            btnCreateAccout.Location = new Point(539, 168);
             btnCreateAccout.Margin = new Padding(3, 2, 3, 2);
             btnCreateAccout.Name = "btnCreateAccout";
-            btnCreateAccout.Size = new Size(294, 22);
+            btnCreateAccout.Size = new Size(204, 22);
             btnCreateAccout.TabIndex = 39;
             btnCreateAccout.Text = "CreateAccount";
-            btnCreateAccout.UseVisualStyleBackColor = true;
+            btnCreateAccout.UseVisualStyleBackColor = false;
             btnCreateAccout.Click += btnCreateAccout_Click;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(btnCreateAccout);
+            panel1.Controls.Add(cboPetGroup);
+            panel1.Controls.Add(txtQuantity);
+            panel1.Controls.Add(txtPrice);
+            panel1.Controls.Add(dtImportDate);
+            panel1.Controls.Add(txtPetName);
+            panel1.Controls.Add(txtDescription);
+            panel1.Controls.Add(txtPetId);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(161, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(756, 213);
+            panel1.TabIndex = 40;
             // 
             // frmPetManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(895, 528);
-            Controls.Add(btnCreateAccout);
+            BackgroundImage = PetShopWinApp.Properties.Resources._5bc4227e0da29_maxresdefault_600x450;
+            ClientSize = new Size(1047, 643);
+            Controls.Add(panel1);
             Controls.Add(groupBox1);
             Controls.Add(dgvPet);
-            Controls.Add(cboPetGroup);
-            Controls.Add(txtQuantity);
-            Controls.Add(txtPrice);
-            Controls.Add(dtImportDate);
-            Controls.Add(txtPetName);
-            Controls.Add(txtDescription);
-            Controls.Add(txtPetId);
-            Controls.Add(label7);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "frmPetManagement";
             StartPosition = FormStartPosition.CenterScreen;
@@ -300,8 +318,9 @@
             Load += frmPetManagement_Load;
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvPet).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -327,5 +346,6 @@
         private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
         private Button btnCreateAccout;
         private Button btnLoad;
+        private Panel panel1;
     }
 }

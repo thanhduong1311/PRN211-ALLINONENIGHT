@@ -260,5 +260,28 @@ namespace PetStore_StudentName
         {
             loadPetList(null);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var petId = int.Parse(this.txtPetId.Text); //"1" => 1
+
+            //check xem petID co ton tai khong?
+            var pet = _petRepository.GetPetById(petId);
+            if (pet != null)
+            {
+                if (DialogResult.Yes == MessageBox.Show("Do You Want Delete ?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning))
+                {
+                    _petRepository.DeletePet(petId);
+                    MessageBox.Show("Delete completed!", "Exit", MessageBoxButtons.OK);
+                    //load lai form
+                    loadPetList(null);
+                }
+
+            }
+            else
+            {
+                MessageBox.Show($"Pet co id {petId} khong ton tai");
+            }
+        }
     }
 }

@@ -142,3 +142,5 @@ D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\Pe
 D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetShopWinApp\obj\Debug\net7.0-windows\PetShopWinApp.pdb
 D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetShopWinApp\obj\Debug\net7.0-windows\PetShopWinApp.genruntimeconfig.cache
 D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetShopWinApp\obj\Debug\net7.0-windows\ref\PetShopWinApp.dll
+D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetShopWinApp\obj\Debug\net7.0-windows\PetShopWinApp.Properties.Resources.resources
+D:\SE\S5\PRN211\Templete\Standard\PRN211-Project-PetShop\PRN211-ALLINONENIGHT\PetShopWinApp\obj\Debug\net7.0-windows\PetShopWinApp.Form1.resources
